@@ -1,0 +1,6 @@
+nome = str(input('qual o nome que você deseja analisar')).strip()
+print('... Analisando ...')
+print('seu nome tem ao todo de letras {}'.format(len(nome) - nome.count(' ')))
+#print('Seu primeiro nome tem {}'.format(nome.find(' ')))
+separa = nome.split()
+print('Seu primeiro nome é {} e ele tem {} Letras'.format(separa[0], len(separa[0])))
